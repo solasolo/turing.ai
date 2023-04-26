@@ -203,8 +203,8 @@ export default () => {
         when={!loading()}
         fallback={() => (
           <div class="gen-cb-wrapper">
-            <span>AI is thinking...</span>
-            <div class="gen-cb-stop" onClick={stopStreamFetch}>Stop</div>
+            <span>图灵思考中...</span>
+            <div class="gen-cb-stop" onClick={stopStreamFetch}>停止</div>
           </div>
         )}
       >
